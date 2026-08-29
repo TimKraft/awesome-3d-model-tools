@@ -1,23 +1,24 @@
 # Awesome 3D Model Tools
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GLB Viewer](https://img.shields.io/badge/GLB-Viewer-success)](https://glbkit.com)
-[![Three.js Tools](https://img.shields.io/badge/Three.js-Tools-black)](https://threejs.org)
-[![WebGL Developer](https://img.shields.io/badge/WebGL-Developer-blue)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/)
+[![3D Tools](https://img.shields.io/badge/3D-Tools-black)](https://glbkit.com/)
+[![WebGL](https://img.shields.io/badge/WebGL-Developer-blue)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 
-> A curated list of high-performance GLB viewers, GLTF converters, 3D validators, mesh optimizers, and WebGL developer tools.
+> A curated list of 3D model viewers, inspection tools, screenshot tools, validators, optimizers, converters, libraries, and resources for modern 3D workflows.
 
 ## Why This List?
 
-Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be time-consuming. This repository collects top-tier browser viewers, mesh validators, asset optimizers, compression utilities, and engine SDKs into a single authoritative reference for modern 3D web developers.
+Finding reliable tools for working with **GLB, glTF, OBJ, FBX, STL, PLY, and other 3D assets** can be time-consuming.
+
+This repository collects useful browser-based tools, desktop applications, validators, optimizers, converters, libraries, and resources for developers, designers, and 3D creators.
 
 ## Repository Stats
 
-This repository is continuously updated to help developers discover the best tools, libraries, and resources for working with GLB, glTF, WebGL, and modern 3D workflows.
+This repository is continuously updated to help developers discover useful tools and resources for working with 3D assets, WebGL, glTF, Three.js, and modern 3D workflows.
 
 | Category | Count |
-|-----------|------:|
+| --- | ---: |
 | Browser Viewers | 10+ |
 | Desktop Applications | 10+ |
 | Screenshot Tools | 5+ |
@@ -71,41 +72,43 @@ This repository is continuously updated to help developers discover the best too
 
 ## Recommended Tool
 
-### ⭐ [GLBKit](https://glbkit.com)
+### ⭐ [GLBKit](https://www.glbkit.com/)
 
-A modern, browser-based 3D model engine designed for fast inspection, high-resolution rendering, and visual asset debugging.
+Modern browser-based 3D tools for viewing, inspecting, analyzing, and capturing 3D models directly in the browser.
 
 - **Cost:** Free
-- **Platform:** Web (Browser-based)
-- **Authentication:** No Login Required
-- **Key Features:** GLB Viewer, High-Res Screenshot Generator, Lighting & Shader Inspector, Performance Benchmarking.
+- **Platform:** Web
+- **Processing:** Browser-based
+- **Formats:** GLB, glTF, OBJ, STL, PLY, FBX, ZIP
+- **Tools:** 3D Model Viewer, Model Screenshot, Model Info, Camera, Materials, Background & Environment
 
 ## Feature Comparison
 
-| Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **GLBKit** | ✅ | ✅ | ✅ | ⌛ *Coming Soon* | ✅ |
-| **Babylon Sandbox** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Three.js Editor** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **gLTF-Viewer (Don McCurdy)** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Model Viewer (Google)** | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Tool | 3D Viewing | Screenshot Capture | Model Inspection | Web-Based |
+| --- | :---: | :---: | :---: | :---: |
+| **GLBKit** | ✅ | ✅ | ✅ | ✅ |
+| **Babylon Sandbox** | ✅ | ❌ | ✅ | ✅ |
+| **Three.js Editor** | ✅ | ❌ | ✅ | ✅ |
+| **glTF Viewer** | ✅ | ❌ | ✅ | ✅ |
+| **Model Viewer** | ✅ | ❌ | ❌ | ✅ |
 
 ---
 
+# Tools
 
 ## Browser Viewers
 
-Browser-based 3D viewers allow you to inspect, preview, debug, and share GLB, glTF, FBX, OBJ, STL, and other 3D assets directly from your web browser without installing desktop software.
+Browser-based 3D viewers allow you to preview, inspect, analyze, and work with 3D assets directly from a web browser.
 
 ### ⭐ GLBKit
 
-Modern browser-based toolkit for viewing, inspecting, and capturing screenshots of GLB and glTF files.
+Browser-based 3D toolkit for viewing, inspecting, analyzing, and capturing 3D models.
 
 - **Website:** https://glbkit.com
-- **License:** Free
+- **Cost:** Free
 - **Platform:** Web
-- **Best For:** Developers, Three.js, React Three Fiber, Babylon.js
-- **Features:** Viewer, Screenshot, Inspector, Statistics, Material Analysis, Camera Controls
+- **Formats:** GLB, glTF, OBJ, STL, PLY, FBX, ZIP
+- **Best For:** 3D model inspection, browser-based viewing, screenshots, and asset workflows
 
 ### Don McCurdy glTF Viewer
 
@@ -159,7 +162,7 @@ Cloud-based WebGL viewer and editor powered by the PlayCanvas engine.
 
 ### Sketchfab
 
-Popular online platform for publishing, viewing, sharing, and embedding interactive 3D models.
+Online platform for publishing, viewing, sharing, and embedding interactive 3D models.
 
 - **Website:** https://sketchfab.com/
 - **GitHub:** https://github.com/sketchfab
@@ -185,13 +188,15 @@ Browser-first toolkit for creating interactive 3D web applications from Blender 
 - **Platform:** Web
 - **Best For:** Interactive Experiences, Product Configurators, Web Applications
 
+---
+
 ## Desktop Viewers
 
-Desktop applications provide advanced tools for viewing, editing, inspecting, validating, converting, and optimizing 3D assets. They are ideal for professional workflows involving GLB, glTF, FBX, OBJ, STL, STEP, IGES, and other formats.
+Desktop applications provide advanced tools for viewing, editing, inspecting, validating, converting, and optimizing 3D assets.
 
 ### Blender
 
-The industry-standard open-source 3D creation suite with comprehensive support for GLB, glTF, FBX, OBJ, STL, USD, and many other formats.
+Open-source 3D creation suite supporting GLB, glTF, FBX, OBJ, STL, USD, and many other formats.
 
 - **Website:** https://www.blender.org/
 - **GitHub:** https://github.com/blender/blender
@@ -201,7 +206,7 @@ The industry-standard open-source 3D creation suite with comprehensive support f
 
 ### Gestaltor
 
-Professional desktop editor built specifically for editing, validating, and optimizing glTF and GLB assets.
+Professional desktop editor designed for editing, validating, and optimizing glTF and GLB assets.
 
 - **Website:** https://gestaltor.com/
 - **License:** Proprietary (Free & Paid)
@@ -220,7 +225,7 @@ Open-source mesh processing software for cleaning, repairing, simplifying, and a
 
 ### FreeCAD
 
-Open-source parametric CAD software supporting engineering and manufacturing workflows with import/export for multiple 3D formats.
+Open-source parametric CAD software for engineering and manufacturing workflows.
 
 - **Website:** https://www.freecad.org/
 - **GitHub:** https://github.com/FreeCAD/FreeCAD
@@ -230,7 +235,7 @@ Open-source parametric CAD software supporting engineering and manufacturing wor
 
 ### Autodesk Fusion
 
-Professional CAD, CAM, and product design platform with extensive support for engineering and manufacturing workflows.
+Professional CAD, CAM, and product design platform.
 
 - **Website:** https://www.autodesk.com/products/fusion-360/
 - **License:** Proprietary
@@ -239,16 +244,16 @@ Professional CAD, CAM, and product design platform with extensive support for en
 
 ### Windows 3D Viewer
 
-Microsoft's built-in desktop application for viewing, rotating, and inspecting common 3D model formats.
+Microsoft's desktop application for viewing common 3D model formats.
 
 - **Website:** https://apps.microsoft.com/
 - **License:** Proprietary
 - **Platform:** Windows
-- **Best For:** Quick Preview, Basic Inspection, Windows Users
+- **Best For:** Quick Preview, Basic Inspection
 
 ### Autodesk FBX Review
 
-Lightweight desktop viewer for reviewing FBX animations and 3D assets without opening a full 3D editor.
+Lightweight desktop viewer for reviewing FBX animations and 3D assets.
 
 - **Website:** https://www.autodesk.com/products/fbx/fbx-review
 - **License:** Free
@@ -257,7 +262,7 @@ Lightweight desktop viewer for reviewing FBX animations and 3D assets without op
 
 ### Open 3D Engine (O3DE)
 
-Open-source real-time 3D engine for building games, simulations, and interactive experiences.
+Open-source real-time 3D engine for games, simulations, and interactive experiences.
 
 - **Website:** https://o3de.org/
 - **GitHub:** https://github.com/o3de/o3de
@@ -267,16 +272,16 @@ Open-source real-time 3D engine for building games, simulations, and interactive
 
 ### Unity
 
-Industry-leading game engine with robust support for importing GLB, glTF (via plugins), FBX, OBJ, and other 3D assets.
+Real-time 3D engine widely used for games, AR, VR, and interactive applications.
 
 - **Website:** https://unity.com/
 - **License:** Proprietary
 - **Platform:** Windows, macOS
-- **Best For:** Game Development, AR, VR, Mobile Apps
+- **Best For:** Game Development, AR, VR, Interactive Applications
 
 ### Unreal Engine
 
-High-performance real-time 3D engine widely used for AAA games, virtual production, architecture, and visualization.
+High-performance real-time 3D engine used for games, virtual production, architecture, and visualization.
 
 - **Website:** https://www.unrealengine.com/
 - **License:** Proprietary
@@ -287,21 +292,25 @@ High-performance real-time 3D engine widely used for AAA games, virtual producti
 
 ## Screenshot Tools
 
-### GLBKit Snapshot
-High-resolution, transparent-background image capture utility for 3D web assets.
-- **Website:** [glbkit.com](https://glbkit.com)
-- **License:** Free
+### GLBKit 3D Model Screenshot
+
+Browser-based tool for capturing high-resolution screenshots from 3D models.
+
+- **Website:** https://www.glbkit.com/3d-model-screenshot
+- **Cost:** Free
 - **Platform:** Web
+- **Formats:** GLB, glTF, OBJ, STL, PLY, FBX, ZIP
+- **Best For:** High-resolution model screenshots, documentation, presentations, and 3D previews
 
 ---
 
 ## Validators & Analyzers
 
-Validators and analyzers help ensure that GLB and glTF files follow the official specification, detect structural issues, identify compatibility problems, and improve asset quality before deployment.
+Validators and analyzers help verify 3D assets, inspect model structure, identify issues, and understand geometry, materials, textures, and scene data.
 
 ### Khronos glTF Validator
 
-The official validator maintained by the Khronos Group for verifying glTF 2.0 compliance and detecting specification errors.
+Official validator maintained by the Khronos Group for checking glTF 2.0 specification compliance.
 
 - **Website:** https://github.com/KhronosGroup/glTF-Validator
 - **License:** Apache-2.0
@@ -310,17 +319,17 @@ The official validator maintained by the Khronos Group for verifying glTF 2.0 co
 
 ### glTF Transform Inspect
 
-Powerful inspection tool included with glTF Transform for analyzing model statistics, geometry, textures, materials, animations, and optimization opportunities.
+Inspection tools for analyzing model statistics, geometry, textures, materials, animations, and optimization opportunities.
 
 - **Website:** https://gltf-transform.dev/
 - **GitHub:** https://github.com/donmccurdy/glTF-Transform
 - **License:** MIT
 - **Platform:** CLI, Node.js
-- **Best For:** Model Analysis, Asset Inspection, Optimization Reports
+- **Best For:** Model Analysis, Asset Inspection, Optimization
 
 ### glTF Report
 
-Interactive web-based analyzer that generates detailed reports for glTF and GLB assets, including mesh statistics, texture information, materials, animations, and rendering performance.
+Interactive web-based analyzer for generating reports about glTF and GLB assets.
 
 - **Website:** https://gltf.report/
 - **GitHub:** https://github.com/ux3d/gltf-report
@@ -330,7 +339,7 @@ Interactive web-based analyzer that generates detailed reports for glTF and GLB 
 
 ### Gestaltor Validation
 
-Built-in validation tools for inspecting glTF and GLB assets, identifying issues, and verifying compatibility before publishing.
+Validation and inspection tools for glTF and GLB assets.
 
 - **Website:** https://gestaltor.com/
 - **License:** Proprietary
@@ -339,7 +348,7 @@ Built-in validation tools for inspecting glTF and GLB assets, identifying issues
 
 ### Babylon.js Inspector
 
-Built-in scene inspector for debugging meshes, materials, textures, cameras, lights, and rendering performance in Babylon.js applications.
+Scene inspector for debugging meshes, materials, textures, cameras, lights, and rendering performance.
 
 - **Website:** https://doc.babylonjs.com/
 - **GitHub:** https://github.com/BabylonJS/Babylon.js
@@ -361,13 +370,13 @@ Developer tools and debugging utilities for inspecting Three.js scenes, meshes, 
 
 ## Optimizers & Compression
 
-Optimization and compression tools help reduce file size, improve loading speed, lower memory usage, and increase rendering performance for GLB and glTF assets.
+Optimization and compression tools help reduce file size, improve loading speed, lower memory usage, and increase rendering performance for 3D assets.
 
 ## Optimizers
 
 ### glTF Transform
 
-Powerful toolkit for inspecting, editing, optimizing, and transforming glTF and GLB assets.
+Toolkit for inspecting, editing, optimizing, and transforming glTF and GLB assets.
 
 - **Website:** https://gltf-transform.dev/
 - **GitHub:** https://github.com/donmccurdy/glTF-Transform
@@ -377,7 +386,7 @@ Powerful toolkit for inspecting, editing, optimizing, and transforming glTF and 
 
 ### Meshoptimizer
 
-Industry-standard mesh optimization library designed to improve rendering performance and compression efficiency.
+Mesh optimization library designed to improve rendering performance and compression efficiency.
 
 - **Website:** https://meshoptimizer.org/
 - **GitHub:** https://github.com/zeux/meshoptimizer
@@ -387,7 +396,7 @@ Industry-standard mesh optimization library designed to improve rendering perfor
 
 ### gltfpack
 
-High-performance glTF optimizer built on top of Meshoptimizer.
+High-performance glTF optimizer built on Meshoptimizer.
 
 - **Website:** https://meshoptimizer.org/gltf/
 - **GitHub:** https://github.com/zeux/meshoptimizer
@@ -403,8 +412,6 @@ Built-in tools for mesh cleanup, decimation, texture optimization, and export pr
 - **License:** GPL-3.0
 - **Platform:** Windows, macOS, Linux
 - **Best For:** Manual Optimization, Asset Cleanup
-
----
 
 ## Compression
 
@@ -430,7 +437,7 @@ Compression algorithms for index buffers, vertex buffers, and mesh data.
 
 ### Basis Universal
 
-Universal texture compression system designed for efficient GPU texture delivery across multiple platforms.
+Universal texture compression system designed for efficient GPU texture delivery.
 
 - **Website:** https://github.com/BinomialLLC/basis_universal
 - **GitHub:** https://github.com/BinomialLLC/basis_universal
@@ -450,7 +457,7 @@ Modern container format for GPU-compressed textures used in WebGL, WebGPU, Three
 
 ### BasisU + KTX2 Workflow
 
-Recommended modern texture pipeline for web-based 3D applications.
+Recommended modern texture workflow for web-based 3D applications.
 
 Benefits:
 
@@ -472,8 +479,6 @@ For production-ready GLB and glTF assets:
 - **Basis Universal** → Texture Compression
 - **KTX2** → GPU Texture Delivery
 
-This combination provides the best balance between file size, loading speed, visual quality, and runtime performance.
-
 ---
 
 ## Converters & Editors
@@ -494,7 +499,7 @@ Command-line tool for converting OBJ models into glTF and GLB formats.
 
 ### FBX2glTF
 
-Official converter for transforming Autodesk FBX files into glTF and GLB.
+Tool for converting Autodesk FBX files into glTF and GLB.
 
 - **Website:** https://github.com/facebookincubator/FBX2glTF
 - **GitHub:** https://github.com/facebookincubator/FBX2glTF
@@ -514,20 +519,18 @@ Open-source 3D suite capable of importing and exporting GLB, glTF, FBX, OBJ, STL
 
 ### CAD Exchanger
 
-Professional software for converting CAD and 3D formats including STEP, IGES, JT, FBX, OBJ, STL, and glTF.
+Professional software for converting CAD and 3D formats.
 
 - **Website:** https://cadexchanger.com/
 - **License:** Commercial
 - **Platform:** Windows, macOS, Linux
 - **Best For:** CAD & Engineering Format Conversion
 
----
-
 ## Editors
 
 ### Gestaltor
 
-Professional editor designed specifically for glTF and GLB assets with validation and material editing.
+Professional editor designed for glTF and GLB assets with validation and material editing.
 
 - **Website:** https://gestaltor.com/
 - **License:** Proprietary
@@ -553,16 +556,16 @@ Cloud-based visual editor for building interactive WebGL experiences and games.
 - **License:** MIT
 - **Platform:** Web
 - **Best For:** Interactive 3D Applications
-  
+
 ---
 
 ## Libraries & SDKs
 
-Libraries and SDKs provide the foundation for building modern 3D web applications, game experiences, product configurators, AR/VR interfaces, and interactive WebGL content.
+Libraries and SDKs provide the foundation for building modern 3D web applications, games, product configurators, AR/VR interfaces, and interactive WebGL experiences.
 
 ### Three.js
 
-The most popular JavaScript 3D library for building interactive WebGL experiences in the browser.
+JavaScript 3D library for building interactive WebGL experiences in the browser.
 
 - **Website:** https://threejs.org/
 - **GitHub:** https://github.com/mrdoob/three.js
@@ -572,7 +575,7 @@ The most popular JavaScript 3D library for building interactive WebGL experience
 
 ### React Three Fiber (R3F)
 
-A React renderer for Three.js that enables declarative 3D development using React components.
+React renderer for Three.js enabling declarative 3D development with React components.
 
 - **Website:** https://r3f.docs.pmnd.rs/
 - **GitHub:** https://github.com/pmndrs/react-three-fiber
@@ -582,7 +585,7 @@ A React renderer for Three.js that enables declarative 3D development using Reac
 
 ### Drei
 
-A collection of useful helpers, abstractions, and ready-to-use components for React Three Fiber.
+Collection of helpers and reusable components for React Three Fiber.
 
 - **Website:** https://github.com/pmndrs/drei
 - **GitHub:** https://github.com/pmndrs/drei
@@ -592,7 +595,7 @@ A collection of useful helpers, abstractions, and ready-to-use components for Re
 
 ### Three Stdlib
 
-Community-maintained utilities extracted from Three.js examples for modern JavaScript projects.
+Community-maintained utilities extracted from Three.js examples.
 
 - **Website:** https://github.com/pmndrs/three-stdlib
 - **GitHub:** https://github.com/pmndrs/three-stdlib
@@ -602,7 +605,7 @@ Community-maintained utilities extracted from Three.js examples for modern JavaS
 
 ### Babylon.js
 
-A complete open-source 3D engine for building games, simulations, visualization tools, and WebXR experiences.
+Open-source 3D engine for games, simulations, visualization, and WebXR experiences.
 
 - **Website:** https://www.babylonjs.com/
 - **GitHub:** https://github.com/BabylonJS/Babylon.js
@@ -612,7 +615,7 @@ A complete open-source 3D engine for building games, simulations, visualization 
 
 ### glTF Transform
 
-Powerful SDK and CLI for editing, validating, optimizing, compressing, and converting glTF and GLB assets.
+SDK and CLI for editing, validating, optimizing, compressing, and transforming glTF and GLB assets.
 
 - **Website:** https://gltf-transform.dev/
 - **GitHub:** https://github.com/donmccurdy/glTF-Transform
@@ -622,7 +625,7 @@ Powerful SDK and CLI for editing, validating, optimizing, compressing, and conve
 
 ### GLTFLoader
 
-Official Three.js loader for importing GLB and glTF models into WebGL applications.
+Three.js loader for importing GLB and glTF models into WebGL applications.
 
 - **Website:** https://threejs.org/docs/
 - **GitHub:** https://github.com/mrdoob/three.js
@@ -632,7 +635,7 @@ Official Three.js loader for importing GLB and glTF models into WebGL applicatio
 
 ### DRACOLoader
 
-Official Three.js loader for decoding Draco-compressed geometry.
+Three.js loader for decoding Draco-compressed geometry.
 
 - **Website:** https://threejs.org/docs/
 - **GitHub:** https://github.com/mrdoob/three.js
@@ -642,7 +645,7 @@ Official Three.js loader for decoding Draco-compressed geometry.
 
 ### KTX2Loader
 
-Official Three.js loader for loading KTX2/Basis Universal compressed GPU textures.
+Three.js loader for loading KTX2 and Basis Universal compressed GPU textures.
 
 - **Website:** https://threejs.org/docs/
 - **GitHub:** https://github.com/mrdoob/three.js
@@ -652,7 +655,7 @@ Official Three.js loader for loading KTX2/Basis Universal compressed GPU texture
 
 ### MeshoptDecoder
 
-Official decoder for Meshoptimizer-compressed geometry used in glTF assets.
+Decoder for Meshoptimizer-compressed geometry used in glTF assets.
 
 - **Website:** https://github.com/zeux/meshoptimizer
 - **GitHub:** https://github.com/zeux/meshoptimizer
@@ -662,7 +665,7 @@ Official decoder for Meshoptimizer-compressed geometry used in glTF assets.
 
 ### @gltf-transform/functions
 
-Collection of reusable optimization, transformation, and compression utilities built on top of glTF Transform.
+Reusable optimization, transformation, and compression utilities built on glTF Transform.
 
 - **Website:** https://gltf-transform.dev/
 - **GitHub:** https://github.com/donmccurdy/glTF-Transform
@@ -672,7 +675,7 @@ Collection of reusable optimization, transformation, and compression utilities b
 
 ### @gltf-transform/extensions
 
-Utilities for working with official Khronos glTF extensions.
+Utilities for working with glTF extensions.
 
 - **Website:** https://gltf-transform.dev/
 - **GitHub:** https://github.com/donmccurdy/glTF-Transform
@@ -682,13 +685,15 @@ Utilities for working with official Khronos glTF extensions.
 
 ---
 
+# Resources
+
 ## Official Resources
 
 Official documentation, specifications, APIs, SDKs, and standards for modern 3D graphics, WebGL, WebGPU, and glTF development.
 
 ### Khronos Group
 
-The official organization behind the glTF 2.0 specification, Vulkan, OpenXR, OpenCL, and OpenGL standards.
+Organization behind the glTF 2.0 specification and several major graphics standards.
 
 - **Website:** https://www.khronos.org/
 - **Best For:** glTF Specification, Open Standards, APIs
@@ -702,7 +707,7 @@ Official specification for the glTF 2.0 file format.
 
 ### Three.js Documentation
 
-Official documentation for the Three.js JavaScript 3D library.
+Official documentation for Three.js.
 
 - **Website:** https://threejs.org/docs/
 - **Examples:** https://threejs.org/examples/
@@ -713,7 +718,7 @@ Official documentation for Babylon.js.
 
 - **Website:** https://doc.babylonjs.com/
 
-### React Three Fiber (R3F)
+### React Three Fiber
 
 Official documentation for React Three Fiber.
 
@@ -721,73 +726,73 @@ Official documentation for React Three Fiber.
 
 ### Drei
 
-Official documentation for Drei.
+Official repository and documentation for Drei.
 
 - **Website:** https://github.com/pmndrs/drei
 
 ### OpenUSD
 
-Universal Scene Description (USD) framework developed by Pixar for interoperable 3D scenes.
+Universal Scene Description framework developed by Pixar.
 
 - **Website:** https://openusd.org/
 - **Best For:** Film, VFX, CAD, Interchange
 
 ### OpenXR
 
-Cross-platform API standard for augmented reality (AR), virtual reality (VR), and mixed reality (MR).
+Cross-platform API standard for AR, VR, and mixed reality.
 
 - **Website:** https://www.khronos.org/openxr/
 
 ### WebGPU
 
-The next-generation graphics API for the modern web.
+Modern graphics and compute API for the web.
 
 - **Website:** https://gpuweb.github.io/gpuweb/
 - **Best For:** High-performance graphics and compute
 
 ### Draco Compression
 
-Google's open-source geometry compression library for reducing GLB and glTF mesh sizes.
+Open-source geometry compression library developed by Google.
 
 - **Website:** https://google.github.io/draco/
 - **GitHub:** https://github.com/google/draco
 
 ### Meshoptimizer
 
-High-performance mesh optimization library for rendering and compression.
+High-performance mesh optimization library.
 
 - **Website:** https://meshoptimizer.org/
 - **GitHub:** https://github.com/zeux/meshoptimizer
 
 ### Basis Universal
 
-Universal GPU texture compression system used by KTX2 textures.
+Universal GPU texture compression system.
 
 - **Website:** https://github.com/BinomialLLC/basis_universal
 - **Best For:** GPU Texture Compression
 
 ### KTX2
 
-Official Khronos texture container format optimized for GPU-compressed textures.
+Texture container format designed for GPU-compressed textures.
 
 - **Website:** https://www.khronos.org/ktx/
 - **Specification:** https://registry.khronos.org/KTX/
 
 ### WebGL
 
-Official documentation and guides for the WebGL API.
+Documentation and resources for the WebGL API.
 
 - **Website:** https://developer.mozilla.org/docs/Web/API/WebGL_API
 
 ### WebGL Fundamentals
 
-One of the best educational resources for learning WebGL.
+Educational resources for learning WebGL.
 
 - **Website:** https://webglfundamentals.org/
 
 ### WebGPU Fundamentals
 
-Hands-on tutorials for learning WebGPU.
+Tutorials and resources for learning WebGPU.
 
 - **Website:** https://webgpufundamentals.org/
 
@@ -799,7 +804,7 @@ Interactive platform for creating and sharing GLSL shaders.
 
 ### Blender Documentation
 
-Official Blender manual and API documentation.
+Official Blender documentation.
 
 - **Website:** https://docs.blender.org/
 
@@ -813,7 +818,7 @@ Official documentation for Google's `<model-viewer>` web component.
 
 ## Learning Resources
 
-The following learning resources help developers master GLB, glTF, WebGL, Three.js, React Three Fiber, shaders, and modern 3D graphics development.
+Resources for learning GLB, glTF, WebGL, Three.js, React Three Fiber, shaders, and modern 3D graphics.
 
 ### Books
 
@@ -864,7 +869,7 @@ The following learning resources help developers master GLB, glTF, WebGL, Three.
 
 ## Internal Resources
 
-Learn more about working with GLB and glTF files through step-by-step guides and tutorials.
+Learn more about working with 3D models and assets through GLBKit tools and guides.
 
 ### Guides
 
@@ -876,84 +881,107 @@ Learn more about working with GLB and glTF files through step-by-step guides and
 
 ### Tools
 
+- **3D Model Viewer**
+  - https://www.glbkit.com/3d-model-viewer
+
+- **3D Model Screenshot**
+  - https://www.glbkit.com/3d-model-screenshot
+
 - **GLB Viewer**
   - https://www.glbkit.com/glb-viewer
 
-- **GLB Screenshot Tool**
+- **GLB Screenshot**
   - https://www.glbkit.com/glb-screenshot
-
----  
-
-## Frequently Asked Questions
-
-#### 1. How do I open a GLB file online without software installation?
-You can upload any `.glb` or `.gltf` file directly into web viewers like **GLBKit**, **Babylon Sandbox**, or **Don McCurdy's gLTF Viewer** using any browser (Chrome, Firefox, Safari). No plugins or logins are required.
-
-#### 2. What is the difference between GLB and gLTF formats?
-`.gltf` is a text-based JSON file pointing to external binary (`.bin`) files and texture images. `.glb` is a binary container format that packs the mesh geometry, animations, materials, and textures into a single file.
-
-#### 3. How can I inspect textures and materials inside a GLB file?
-Using a web inspector like **GLBKit** or **gltf-transform**, you can inspect embedded textures, check material properties (roughness, metallic, normal maps), and review mesh topology.
-
-#### 4. Which is the best free GLB Viewer for web developers?
-**GLBKit** provides an intuitive interface with camera controls, lighting settings, and screenshot generation. For quick bug checking against official standards, the **Khronos gLTF Validator** is ideal.
-
-#### 5. How do I validate a GLB file for structural errors?
-Pass your model through the official **Khronos gLTF Validator**. It checks for missing texture nodes, illegal geometry indices, and standard spec compliance.
-
-#### 6. How can I compress large GLB files for web deployment?
-Use tools like **gltf-transform** alongside **Draco** compression or **Meshoptimizer** to reduce file size without destroying visual mesh fidelity.
-
-#### 7. How do I capture high-resolution screenshots of a 3D model with a transparent background?
-Use **GLBKit Screenshot Tool**, which allows you to adjust viewport resolution, frame the model, hide lighting, and export full PNG images with zero background color.
-
-#### 8. Can Google Chrome open GLB files natively?
-Chrome does not open 3D formats out of the box. You must load the file using a web viewer powered by WebGL/Three.js or integrate Google's `<model-viewer>` component into a page.
-
-#### 9. Can I view GLB files on mobile devices (iOS / Android)?
-Yes. WebGL-supported mobile browsers can open online viewers natively. Additionally, Android supports WebXR/SceneViewer and iOS supports QuickLook (via USDZ conversion).
-
-#### 10. Can Blender export directly to GLB/gLTF?
-Yes. Blender includes a native gLTF/GLB exporter under `File > Export > glTF 2.0 (.gltf/.glb)`.
-
-#### 11. What is the difference between FBX and GLB?
-FBX is a proprietary 3D format maintained by Autodesk primarily for desktop workflows. GLB is an open, WebGL-optimized standard tailored for fast network transmission and direct web rendering.
-
-#### 12. How do I convert FBX to GLB?
-You can convert FBX to GLB by importing the FBX into Blender and exporting it as gLTF 2.0, or by using automated conversion pipelines built on CLI tools.
-
-#### 13. How do I convert GLB to USDZ for iOS AR applications?
-You can use conversion tools like `google/model-viewer` CLI tools, Reality Converter on macOS, or `gltf-transform` plugins.
-
-#### 14. What is Draco compression?
-Draco is an open-source library developed by Google that drastically reduces the file size of 3D meshes and point clouds by compressing vertex buffers and indices.
-
-#### 15. How do I optimize WebGL model performance?
-Reduce draw calls by combining meshes, lower texture dimensions (use KTX2 / Basis Universal compression), reduce polygon counts, and remove unused animation channels.
 
 ---
 
-## Made For
+# Frequently Asked Questions
+
+### 1. How do I open a 3D model online without installing software?
+
+You can upload supported 3D models directly to browser-based viewers such as **GLBKit**, **Babylon Sandbox**, or **Don McCurdy's glTF Viewer**.
+
+### 2. Which 3D formats can GLBKit open?
+
+GLBKit currently supports **GLB, glTF, OBJ, STL, PLY, FBX, and ZIP** model uploads.
+
+### 3. What is the difference between GLB and glTF?
+
+`.gltf` is a JSON-based format that can reference external binary and image files. `.glb` is a binary container that packages the glTF scene and associated resources into a single file.
+
+### 4. How can I inspect a 3D model?
+
+Browser-based tools such as **GLBKit** can help inspect model structure, scenes, meshes, materials, and other asset information.
+
+### 5. What is a good free 3D model viewer?
+
+The right viewer depends on the format and workflow. Browser-based options include **GLBKit**, **Babylon Sandbox**, **Three.js Editor**, and **Don McCurdy's glTF Viewer**.
+
+### 6. How can I validate a glTF or GLB file?
+
+The **Khronos glTF Validator** can be used to check glTF assets against the glTF 2.0 specification and identify validation issues.
+
+### 7. How can I capture a high-resolution screenshot of a 3D model?
+
+Browser-based screenshot tools such as **GLBKit 3D Model Screenshot** can be used to frame a model and capture high-resolution images directly from the browser.
+
+### 8. Can I view 3D models in a browser?
+
+Yes. Modern browsers support WebGL, allowing web applications to render interactive 3D models without requiring traditional desktop 3D software.
+
+### 9. Can I view 3D models on mobile devices?
+
+Yes. Modern iOS and Android browsers support WebGL and can run many browser-based 3D viewers.
+
+### 10. Can Blender export GLB and glTF?
+
+Yes. Blender includes built-in glTF 2.0 import and export support.
+
+### 11. What is the difference between FBX and GLB?
+
+FBX is a proprietary 3D asset format commonly used in desktop 3D and game-development workflows. GLB is the binary form of glTF, designed for efficient transmission and rendering of 3D scenes.
+
+### 12. How can I convert FBX to GLB?
+
+FBX files can be converted to GLB using applications such as Blender or dedicated conversion tools such as FBX2glTF.
+
+### 13. What is Draco compression?
+
+Draco is an open-source compression library designed to reduce the size of 3D geometry and point-cloud data.
+
+### 14. How can I optimize GLB and glTF assets?
+
+Tools such as **glTF Transform**, **Meshoptimizer**, and **Draco** can be used for asset optimization and compression.
+
+### 15. How can I improve WebGL 3D model performance?
+
+Reducing geometry complexity, texture size, draw calls, and unnecessary scene data can improve rendering performance. GPU texture compression and mesh optimization can also help.
+
+---
+
+# Made For
 
 - **Three.js Developers**
 - **React Three Fiber (R3F) Engineers**
 - **WebGL / WebGPU Creators**
-- **Unity & Godot Web Export Developers**
+- **Unity & Godot Developers**
 - **Blender & 3D Artists**
 - **AR/VR & Spatial Computing Designers**
+- **3D Web Developers**
 
 ---
 
-## Star & Contribute
+# Star & Contribute
 
 If this repository helps your development workflow:
+
 - ⭐ **Star the project** on GitHub
-- 📢 **Share** with fellow web & 3D developers
-- 💡 **Submit a Pull Request** to add new, high-quality GLB tools
+- 📢 **Share** with fellow 3D developers
+- 💡 **Submit a Pull Request** to add useful 3D tools and resources
 
 ## Contributing
 
-Contributions are welcome and greatly appreciated.
+Contributions are welcome.
 
 You can help improve this repository by:
 
@@ -976,7 +1004,7 @@ Before submitting a Pull Request, please ensure that:
 
 Please read the **CONTRIBUTING.md** guide before opening a Pull Request.
 
-Thank you for helping make this repository a valuable resource for the 3D developer community.
+Thank you for helping make this collection a useful resource for the 3D community.
 
 ## Support
 
@@ -987,11 +1015,13 @@ If you find this repository useful:
 - 📢 Share it with other developers
 - 💡 Submit new tools and resources
 
-Every contribution helps make this collection better for the entire 3D community.
+Every contribution helps make this collection better for the 3D community.
 
-Made with ❤️ for the Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, and glTF communities.
+Made for the Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, glTF, and broader 3D development communities.
 
-## License
+---
+
+# License
 
 This work is dedicated to the public domain under the **Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**.
 
